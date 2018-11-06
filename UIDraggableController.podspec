@@ -20,7 +20,7 @@ s.author = { "Rolando Rodriguez" => "cxavier71@gmail.com" }
 s.homepage = "https://github.com/rorodriguez117/UIDraggableController"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/rorodriguez117/UIDraggableController",
+s.source = { :git => "https://github.com/rorodriguez117/UIDraggableController.git",
 :tag => "#{s.version}" }
 
 # 7
