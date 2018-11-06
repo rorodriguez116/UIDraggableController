@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A94FCE1A2192599800BCDEBE /* UIDragableController.h in Headers */ = {isa = PBXBuildFile; fileRef = A94FCE182192599800BCDEBE /* UIDragableController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A94FCE21219259B100BCDEBE /* DraggableContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94FCE20219259B100BCDEBE /* DraggableContainer.swift */; };
+		A94FCE1A2192599800BCDEBE /* UIDraggableController.h in Headers */ = {isa = PBXBuildFile; fileRef = A94FCE182192599800BCDEBE /* UIDraggableController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94FCE21219259B100BCDEBE /* UIDraggableContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94FCE20219259B100BCDEBE /* UIDraggableContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A94FCE152192599800BCDEBE /* UIDragableController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIDragableController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A94FCE182192599800BCDEBE /* UIDragableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDragableController.h; sourceTree = "<group>"; };
+		A94FCE152192599800BCDEBE /* UIDraggableController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIDraggableController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94FCE182192599800BCDEBE /* UIDraggableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDraggableController.h; sourceTree = "<group>"; };
 		A94FCE192192599800BCDEBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A94FCE20219259B100BCDEBE /* DraggableContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableContainer.swift; sourceTree = "<group>"; };
+		A94FCE20219259B100BCDEBE /* UIDraggableContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDraggableContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +32,7 @@
 		A94FCE0B2192599800BCDEBE = {
 			isa = PBXGroup;
 			children = (
-				A94FCE172192599800BCDEBE /* UIDragableController */,
+				A94FCE172192599800BCDEBE /* UIDraggableController */,
 				A94FCE162192599800BCDEBE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,19 +40,19 @@
 		A94FCE162192599800BCDEBE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A94FCE152192599800BCDEBE /* UIDragableController.framework */,
+				A94FCE152192599800BCDEBE /* UIDraggableController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A94FCE172192599800BCDEBE /* UIDragableController */ = {
+		A94FCE172192599800BCDEBE /* UIDraggableController */ = {
 			isa = PBXGroup;
 			children = (
-				A94FCE20219259B100BCDEBE /* DraggableContainer.swift */,
-				A94FCE182192599800BCDEBE /* UIDragableController.h */,
+				A94FCE20219259B100BCDEBE /* UIDraggableContainer.swift */,
+				A94FCE182192599800BCDEBE /* UIDraggableController.h */,
 				A94FCE192192599800BCDEBE /* Info.plist */,
 			);
-			path = UIDragableController;
+			path = UIDraggableController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,16 +62,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A94FCE1A2192599800BCDEBE /* UIDragableController.h in Headers */,
+				A94FCE1A2192599800BCDEBE /* UIDraggableController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A94FCE142192599800BCDEBE /* UIDragableController */ = {
+		A94FCE142192599800BCDEBE /* UIDraggableController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A94FCE1D2192599800BCDEBE /* Build configuration list for PBXNativeTarget "UIDragableController" */;
+			buildConfigurationList = A94FCE1D2192599800BCDEBE /* Build configuration list for PBXNativeTarget "UIDraggableController" */;
 			buildPhases = (
 				A94FCE102192599800BCDEBE /* Headers */,
 				A94FCE112192599800BCDEBE /* Sources */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = UIDragableController;
+			name = UIDraggableController;
 			productName = UIDragableController;
-			productReference = A94FCE152192599800BCDEBE /* UIDragableController.framework */;
+			productReference = A94FCE152192599800BCDEBE /* UIDraggableController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A94FCE0F2192599800BCDEBE /* Build configuration list for PBXProject "UIDragableController" */;
+			buildConfigurationList = A94FCE0F2192599800BCDEBE /* Build configuration list for PBXProject "UIDraggableController" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A94FCE142192599800BCDEBE /* UIDragableController */,
+				A94FCE142192599800BCDEBE /* UIDraggableController */,
 			);
 		};
 /* End PBXProject section */
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A94FCE21219259B100BCDEBE /* DraggableContainer.swift in Sources */,
+				A94FCE21219259B100BCDEBE /* UIDraggableContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +282,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RRY.UIDragableController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RRY.UIDraggableController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RRY.UIDragableController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RRY.UIDraggableController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A94FCE0F2192599800BCDEBE /* Build configuration list for PBXProject "UIDragableController" */ = {
+		A94FCE0F2192599800BCDEBE /* Build configuration list for PBXProject "UIDraggableController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A94FCE1B2192599800BCDEBE /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A94FCE1D2192599800BCDEBE /* Build configuration list for PBXNativeTarget "UIDragableController" */ = {
+		A94FCE1D2192599800BCDEBE /* Build configuration list for PBXNativeTarget "UIDraggableController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A94FCE1E2192599800BCDEBE /* Debug */,
