@@ -8,7 +8,7 @@ s.summary = "UIDragableController is a drop-in component that allows a drag/swip
 s.requires_arc = true
 
 # 2
-s.version = "1.0.1"
+s.version = "1.0.2"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -30,7 +30,7 @@ s.framework = "UIKit"
 s.source_files = "UIDraggableController/**/*.{swift}"
 
 # 9
-s.resources = "UIDraggableController/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "UIDraggableController/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
