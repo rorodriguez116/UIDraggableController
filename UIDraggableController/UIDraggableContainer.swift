@@ -26,7 +26,7 @@ public enum TransitionFlow {
     }
 }
 
-public class UIDraggableController: UIViewController {
+open class UIDraggableController: UIViewController {
     
     fileprivate let velocityOpenThreshold: CGFloat = 500
 
@@ -92,7 +92,7 @@ public class UIDraggableController: UIViewController {
     public var onPanToRightViewController: ((UIPanGestureRecognizer) -> ())?
 
 
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = .black
@@ -208,7 +208,7 @@ public class UIDraggableController: UIViewController {
         }
     }
     
-    public func showLeftVC(performCompletionBlock: Bool = true) {
+    open func showLeftVC(performCompletionBlock: Bool = true) {
         isShowingViewController(at: .left)
         redViewLeadingConstraint.constant = leftVCWidth
         performAnimations {
@@ -357,7 +357,7 @@ public class UIDraggableController: UIViewController {
 
 extension UIViewController {
     
-    public var draggableController: UIDraggableController? {
+    open var draggableController: UIDraggableController? {
         get {
             var parentViewController = self.parent
             while (parentViewController != nil) {

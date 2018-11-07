@@ -8,7 +8,7 @@ s.summary = "UIDragableController is a drop-in component that allows a drag/swip
 s.requires_arc = true
 
 # 2
-s.version = "1.0.2"
+s.version = "1.0.3"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
