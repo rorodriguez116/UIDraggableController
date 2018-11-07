@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '11.0'
 s.name = "UIDraggableController"
-s.summary = "RWPickFlavor lets a user select an ice cream flavor."
+s.summary = "UIDragableController is a drop-in component that allows a drag/swipe based navigation between UIViewControllers."
 s.requires_arc = true
 
 # 2
-s.version = "1.0"
+s.version = "1.0.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
