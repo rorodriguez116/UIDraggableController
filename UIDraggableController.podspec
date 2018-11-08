@@ -17,10 +17,10 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Rolando Rodriguez" => "cxavier71@gmail.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/rorodriguez117/UIDraggableController"
+s.homepage = "https://github.com/rorodriguez116/UIDraggableController"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/rorodriguez117/UIDraggableController.git",
+s.source = { :git => "https://github.com/rorodriguez116/UIDraggableController.git",
 :tag => "#{s.version}" }
 
 # 7
